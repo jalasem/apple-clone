@@ -74,3 +74,38 @@ form img {
   height: .8rem;
   margin: 5px;
 }
+
+.banner {
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-weight: 200;
+  font-size: 3.75rem;
+}
+
+.banner h2 {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.banner h3 {
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+.banner h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+section.devices {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.devices > .device img {
+  width: 100%;
+  object-fit: cover;
+}
