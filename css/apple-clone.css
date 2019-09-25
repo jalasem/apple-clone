@@ -5,8 +5,8 @@ html, body {
 }
 
 .hero {
-  background: url(../img/your_verse_hero_2x.jpg);
-  background: bottom center;
+  background-image: url(../img/your_verse_hero_2x.jpg);
+  background-position: bottom center;
   background-size: cover;
   min-width: 60vh;
   padding: 4rem 15% 8rem;
@@ -17,6 +17,60 @@ nav {
   padding: 0;
   overflow: hidden;
   border-radius: 5px;
+  height: 40px;
+  align-items: stretch;
   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
   display: flex;
+}
+
+nav .links {
+  flex-grow: 2;
+
+  display: flex;
+  justify-content: stretch;
+}
+
+.links a {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid white;
+  border-right: 1px solid rgba(75, 75, 75, 0.8);
+}
+
+.links a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+form {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  border-radius: 4rem;
+  border: 2px inset grey;
+  padding-left: 5px;
+}
+
+.search-field input {
+  border: none;
+  background: none;
+  color: white;
+}
+
+.search-field input:focus {
+  outline: none;
+}
+
+form img {
+  height: .8rem;
+  margin: 5px;
 }
