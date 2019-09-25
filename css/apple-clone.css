@@ -109,3 +109,26 @@ section.devices {
   width: 100%;
   object-fit: cover;
 }
+
+footer {
+  padding: .5rem 5%;
+  font-size: .75rem;
+  font-weight: 200;
+}
+footer a {
+  color: #08c;
+  text-decoration: none;
+}
+footer .line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .link {
+  border-right: 1px solid #ccc;
+  padding-right: .25rem;
+}
