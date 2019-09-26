@@ -9,8 +9,8 @@
 - CSS
 
 # Authors
--[Abdulsamii Ajala](https://github.com/jalasem)
+- [Abdulsamii Ajala](https://github.com/jalasem)
 
 # Acknowledgments
-[Apple (Web Archive)](https://web.archive.org/web/20140301004610/http://www.apple.com/)
-[Microverse](https://microverse.org)
+- [Apple (Web Archive)](https://web.archive.org/web/20140301004610/http://www.apple.com/)
+- [Microverse](https://microverse.org)
