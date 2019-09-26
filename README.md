@@ -1,17 +1,16 @@
 # HTML Forms
 
-## Cloning [Intuit sign up page](https://accounts.intuit.com/signup.html), a Microverse Project
+## Cloning [Apple Page](https://web.archive.org/web/20140301004610/http://www.apple.com/), a Microverse Project
 
-[Demo](https://raw.githack.com/fedgut/html-forms/htmlform/index.html)
+[Demo](https://rawcdn.githack.com/jalasem/apple-clone/4cbb4d6f10c7f6c0a6c1570a9c805c1123ae50ac/index.html)
 
 # Built With
--HTML
--CSS
+- HTML
+- CSS
 
 # Authors
 -[Abdulsamii Ajala](https://github.com/jalasem)
--[Eduardo Gutierrez](https://github.com/fedgut)
 
 # Acknowledgments
-[Mint](https://accounts.intuit.com/index.html)
+[Apple (Web Archive)](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 [Microverse](https://microverse.org)
